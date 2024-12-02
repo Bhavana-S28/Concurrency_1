@@ -1,4 +1,4 @@
-package tests.com.fh.smarthouse;
+package tests.com.fh.ehut;
 
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.Suite;
