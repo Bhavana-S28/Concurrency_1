@@ -1,15 +1,20 @@
-Role Distribution:
-Aftab Makbul Makandar
-Core Functionality Development:
-Implemented the DataExchangeSimulator class for demonstrating resource management with byte and character streams. Developed custom exceptions (DataExchangeException) to showcase exception chaining and meaningful error reporting. Unit Testing: Created the DataExchangeSimulatorTest class with test cases covering: Valid file operations. Handling invalid filenames. Resource management with large data. Grouped the test cases using a test suite (DataExchangeTestSuite).
+Role distribution:
+Bhavana Shivaraju
+a.Energy Usage Simulation:
+Implemented the EnergyUsageSimulation class to simulate multiple energy consumers drawing power from a shared battery resource. Used: -ReentrantLock for synchronizing access to shared resources. -AtomicInteger for managing thread-safe numeric operations. Focused on preventing system overload by incorporating safe thresholds for energy consumption. Demonstrated thread-safe operations and proper resource management.
+
+b.Features:
+Multi-threaded Energy Consumption: Simulated threads representing energy-consuming devices. Controlled access to the battery to avoid unsafe depletion. Dynamic Behavior: Introduced concurrency mechanisms to simulate real-time energy usage scenarios.
 
 Mohammad Ali Moradi
-General Exception Handling:
-Developed the ExceptionHandling class to demonstrate: File handling exceptions using BufferedReader. Handling arithmetic exceptions (e.g., division by zero). Managing array index out-of-bounds errors. Implemented nested try-catch blocks to show effective exception categorization.
+a.Battery Charging Simulation:
+Developed the BatteryChargingSimulation class to simulate multiple energy sources charging a shared battery. Implemented: Thread-based EnergySource class to model charging entities (e.g., Solar Panels, Wind Turbines). Used thread synchronization to ensure consistent battery updates and prevent race conditions.
 
-Bhavana Shivaraju
-Log File Management:
-Created the LogFileCreator class for: Generating daily log files for charging stations and energy sources. Ensuring the creation of system logs. Utilized exception handling for file creation operations.
+b.Features:
+Concurrent Charging: Simulated threads representing multiple energy sources charging a single battery. Thread Coordination: Used Thread.join() to ensure all threads complete their operations before displaying the final battery charge.
 
-Unit Testing:
-Implemented LogFileCreatorTest: Tested log creation with valid inputs, empty arrays, and null values. Validated system log file creation under various scenarios. Used @BeforeEach and @AfterEach annotations to manage test resources.
+Aftab Makbul Makandar
+a.Theoretical Analysis:
+Topics Covered:
+
+Comparison of Concurrency Models: Discussed the advantages and disadvantages of various concurrency models (e.g., threads, actors, tasks). Concurrency vs. Parallelism: Provided a clear distinction between concurrency (task interleaving) and parallelism (task execution in parallel). Blocking vs. Non-blocking Concurrency: Explained the pros, cons, and use cases of both algorithms, with examples.
